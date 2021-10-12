@@ -1,0 +1,20 @@
+import React from "react";
+
+const Index = () => {
+  return (
+    <div>
+      <h1>
+        <motion.div
+          animate={{
+            x: -100,
+            y: 0,
+            scale: 1,
+            rotate: 0,
+          }}
+        />
+      </h1>
+    </div>
+  );
+};
+
+export default Index;
