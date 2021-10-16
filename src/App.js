@@ -7,6 +7,7 @@ import {
   Icons,
   ConvertPage,
   Lottie,
+  Button,
 } from "./Import/Index";
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/img" component={ChooseImg} />
         <Route exact path="/icon" component={Icons} />
         <Route path="/page" component={ConvertPage} />
-        <Route path="/lottie" component={Lottie} />
+        <Route path="/spring" component={Button} />
       </Switch>
     </Router>
   );

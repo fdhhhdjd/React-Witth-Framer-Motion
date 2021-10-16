@@ -27,6 +27,21 @@ const Dropdown = () => {
       name: "Choose icon",
       path: "/icon",
     },
+    {
+      id: 3,
+      name: "Choose page",
+      path: "/page",
+    },
+    {
+      id: 4,
+      name: "Choose lottie",
+      path: "/lottie",
+    },
+    {
+      id: 5,
+      name: "Choose img transition react-string",
+      path: "/spring",
+    },
   ];
   return (
     <div class="dropdown">
